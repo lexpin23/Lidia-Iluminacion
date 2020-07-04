@@ -1,0 +1,444 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+.navbar-light .navbar-brand
+{
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+}
+.navbar-nav a
+{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-dark
+{
+    background: rgba(0, 0, 0, 0.459);
+}
+
+/*=======================================================================================================*/
+
+
+/*SECCIÓN #1 sliders*/
+.carousel-item services
+{
+    background-color: rgba(204, 174, 98,1.0);
+}
+
+.secciones
+{
+    padding: 0;
+    margin: 0px;
+}
+
+.centrado
+{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    background: rgba(61, 61, 61,.4);
+}
+
+.centrado h5
+{
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    margin-right: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.carousel-caption
+{
+    bottom: 220px;
+}
+
+.carousel-caption h5
+{
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    margin-right: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*=======================================================================================================*/
+
+/*SECCIÓN #1 sliders RESPONSIVE*/
+
+@media only screen and (max-width: 767px)
+{
+    #infoResponsive
+    {
+        position:relative;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .texto-encima
+    {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .centrado
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 768px) and (max-width:959px)
+{
+    .texto-encima
+    {
+        display: none;
+    }
+
+    .centrado
+    {
+        display: none;
+    }
+}
+
+@media (min-width: 960px) and (max-width:1199px)
+{
+    .texto-encima
+    {
+        display: none;
+    }
+
+    .centrado
+    {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .texto-encima
+    {
+        display: none;
+    }
+
+    .centrado
+    {
+        display: none;
+    }
+}
+
+/*=======================================================================================================*/
+
+
+.tarjetas
+{
+    font-family: 'Work Sans', sans-serif; 
+}
+
+.titulos{
+    color: #2d3436;
+    
+
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
+
+/*=======================================================================================================*/
+
+/* SECCIÓN #2*/
+
+.section2
+{
+    margin-top: 8%;
+}
+
+
+/* overlay Lámparas*/
+.card-img-overlay
+{
+  
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    height: 61%;
+    opacity: 0;
+    transition: .6s ease-out;
+    background: rgba(209, 204, 192,1.0);
+}
+
+.buttonshop
+{
+    position: absolute;
+    left: 55%;
+    top: 38%;
+}
+
+.buttongallery
+{
+    position: absolute;
+    left: 20%;
+    top: 38%;
+}
+
+.inner
+{
+    overflow: hidden;
+}
+
+.inner .img
+{
+    transition: all 1.5s ease;
+}
+
+.inner:hover .img
+{
+    transform: scale(1.5);
+}
+
+.card-img-overlay:hover
+{
+  opacity: .8;   
+}
+
+/* overlay Plafones tarjeta 2*/
+
+.tarjeta2
+{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    height: 46%;
+    opacity: 0;
+    transition: .6s ease-out;
+    background: rgba(255, 245, 245, 0.692);
+}
+
+.card-img-overlay .tarjeta2:hover
+{
+  opacity: .8;    
+}
+
+/* overlay Plafones tarjeta 3*/
+.tarjeta3
+{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    height: 36%;
+    opacity: 0;
+    transition: .6s ease-out;
+    background: rgba(65, 64, 63, 0.651);
+}
+
+.card-img-overlay .tarjeta3:hover
+{
+    opacity: .8;
+}
+
+/*=======================================================================================================*/
+/*SECCIÓN # SERVICIOS */
+
+#Servicios{
+    text-align: center;
+    text-transform: capitalize; 
+}
+
+.refacciones{
+    background: rgba(96, 101, 105, 0.685);
+    
+}
+
+.card-img-overlay .refacciones:hover{
+    opacity: .7;
+    
+}
+
+.mantenimiento{
+    background: rgba(201, 199, 199, 0.952);
+}
+
+.card-img-overlay .mantenimiento{
+    opacity: .5;
+}
+
+/*=======================================================================================================*/
+
+/*SECCIÓN #3 CONTACTO */
+.title2
+{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    font-size: 29px;   
+}
+
+.icono1
+{
+    /*background: url(../img/icon-telephone.ico);
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+
+.icono2
+{
+    /*background: url(../img/icon-location3.ico);
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+
+.icono3
+{
+    /*background: url(../img/icon-email.ico);
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+
+.icono4
+{
+    /*background: url(../img/icon-reloj.ico);
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+
+.icono5
+{
+    /*background: url(../img/icon-info4.ico);
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+
+.pf
+{
+    color: #999;
+    line-height: 25px;
+}
+
+/*=======================================================================================================*/
+
+/* FOOTER*/
+.h3f .h2f
+{
+    color: #fff;
+}
+
+.h2f
+{
+    font-size: 18px;
+    
+}
+
+.footer-top
+{
+    background: #111;
+    padding: 80px 0;
+}
+
+.segment-one .h3f
+{
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+
+}
+
+
+.segment-two .h2f
+{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-transform: uppercase;   
+}
+
+.segment-two .h2f:before
+{
+    padding-right: 10px;
+    content: '|';
+    color: #c65039; 
+}
+
+.segment-two ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li
+{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+}
+
+.segment-two ul li a
+{
+    color: #999;
+    text-decoration: none;
+}
+
+.segment-three .h2f
+{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase; 
+}
+
+.segment-three .h2f:before
+{
+    padding-right: 10px;
+    content: '|';
+    color: #c65039;  
+}
+
+.bredes
+{
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.segment-three .a .redes
+{
+   width: 40px;
+}
+
+.footer-bottom-text
+{
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+}
+
+/*=======================================================================================================*/
+
+/* responsive css footer*/
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+    .md-mb-30
+    {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 767px)
+{
+    .sm-mb-30
+    {
+        margin-bottom: 30px;
+    }
+
+    .footer-top
+    {
+        padding: 50px 0;
+    }
+}
+
