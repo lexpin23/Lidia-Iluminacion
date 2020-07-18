@@ -22,12 +22,20 @@
     <title>Lidia Iluminación</title>
 
 </head>
-<body>
+<body id="body">
 
     <!--NAVBAR O BARRA DE NAVEGACIÓN-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
+      
         <div class="container">
-            <a href="#carouselExampleIndicators"><button class="navbar-brand btn btn-outline-secondary border-0 " href=""><img src="/img/LOGO LIDIA 2.png" alt="" width="60" height="40"></button></a>
+          <a href="#carouselExampleIndicators"><button id="logoLidia" class="navbar-brand btn btn-outline-secondary border-0" href=""><img src="/img/LOGO LIDIA 2.png" alt="" width="70" height="50"></button></a>
+          <!--
+             <form class="form-inline ">
+            <input class="form-control mr-sm-2 border rounded-0" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0 " type="submit">Search</button>
+          </form>
+          -->
+         
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,7 +50,7 @@
                       Productos
                     </a>
                     <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#Candiles">Candiles</a>
+                      <a class="dropdown-item" href="#Productos">Candiles</a>
                       <a class="dropdown-item" href="#Lamparas">Lámparas</a>
                       <a class="dropdown-item" href="#Plafones">Plafones</a>
                       <a class="dropdown-item" href="#Arbotantes">Arbotantes</a>
@@ -54,13 +62,13 @@
                       Servicios
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Refacciones</a>
-                      <a class="dropdown-item" href="#">Mantenimiento</a>
-                      <a class="dropdown-item" href="#">Instalación</a>
+                      <a class="dropdown-item" href="#Servicios">Refacciones</a>
+                      <a class="dropdown-item" href="#Servicios">Mantenimiento</a>
+                      <a class="dropdown-item" href="#Servicios">Instalación</a>
                     </div>
                   </li>
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Nosotros</a>
+                      <a class="nav-link" href="#Nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item active">
                       <a class="nav-link" href="#contact">Contacto</a>
@@ -99,8 +107,10 @@
                 
                 <div class="carousel-caption d-none d-md-block justify-content-end">
                   <div class="col-sm-12 col-md-7 col-lg-5 col-lg-5 col-xl-7 ml-auto"> 
-                    <h5>Second slide</h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi ut tempore quasi ipsam! Temporibus minus et aut voluptatum amet quidem excepturi voluptate asperiores doloremque id at, voluptatem, harum tempore rerum.</p>
+                    <h5>Quiénes Somos</h5>
+                  <p>Somos una tienda especializada en artículos decorativos de iluminación con 48 años de experiencia en la 
+                    ciudad de Culiacán Sinaloa durante los cuales nos enfocamos en proporcionar productos de diseño calidad y 
+                    asesorar logrando garantizar confianza a cada uno de nuestros clientes y mantener su preferencia</p>
                   <p><a href="" class="btn btn-outline-light justify-content-end">Read More</a></p>
                   </div>               
               </div>
@@ -137,7 +147,12 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+
+        <div>
+
+        </div>
     </div>
+   
 
   <!--SECCIÓN #1 CANDILES LÁMPARAS PLAFONES ARBOTANTES SERVICIOS-->
     <!--
@@ -193,11 +208,11 @@
   </section>
 
    -->
-  <section >
+  <section id="Productos">
     
     <div class="container mt-5" >
       <h2 class="mt-5 title">Productos</h2>
-      <h5 class="card-subtitle mb-2 text-muted title2">Galería</h5>
+      <h5 class="card-subtitle mb-2 text-muted title2">Galerías</h5>
       <div class="row row-cols-1 row-cols-md-2 mt-5">
         <div class="col mb-4" id="Candiles">
           <div class="card border-0 rounded-0 shadow p-3 rounded ">
@@ -332,7 +347,7 @@
   </section>
  
 
-<!-- SECCIÓN #2 LÁMPARAS PLAFONES Y ARBOTANTES-->
+<!-- SECCIÓN #2 LÁMPARAS PLAFONES Y ARBOTANTES
 
 <div class="container section2">
   <div class="mt-4">
@@ -349,7 +364,7 @@
               <div class="contenedor ">
               <button class="btn btn-dark buttongallery "><i class="far fa-3x fa-images"></i></button>
               <button class="btn btn-dark buttonshop"><i class="fas fa-3x fa-shopping-bag "></i></button>
-              <!--<button class="btn btn-dark buttonshop"><i class="far fa-3x fa-heart "></i></button> -->
+              <button class="btn btn-dark buttonshop"><i class="far fa-3x fa-heart "></i></button> 
               </div>
             </div>
         
@@ -368,7 +383,7 @@
           <div class="contenedor ">
           <button class="btn btn-dark buttongallery"><i class="far fa-3x fa-images"></i></button>
           <button class="btn btn-dark buttonshop"><i class="fas fa-3x fa-shopping-bag "></i></button>
-          <!--<button class="btn btn-dark buttonshop"><i class="far fa-3x fa-heart "></i></button> -->
+          <button class="btn btn-dark buttonshop"><i class="far fa-3x fa-heart "></i></button>
           </div>
         </div>
 
@@ -389,7 +404,7 @@
           <div class="contenedor ">
           <button class="btn btn-dark buttongallery"><i class="far fa-3x fa-images"></i></button>
           <button class="btn btn-dark buttonshop"><i class="fas fa-3x fa-shopping-bag "></i></button>
-          <!--<button class="btn btn-dark buttonshop"><i class="far fa-3x fa-heart "></i></button> -->
+          <button class="btn btn-dark buttonshop"><i class="far fa-3x fa-heart "></i></button>
           </div>
         </div>
         
@@ -402,10 +417,14 @@
     </div>
   </div>
 </div>
+-->
 
 <!--SERVICIOS REFACCIONES MANTENIMIENTO INSTALACIÓN-->
+<div class="container mb-5" style="height: 70px;" id="Servicios">
+
+</div>
 <div class="container">
-  <h2 class="mt-5 title mb-5" id="Servicios">Servicios</h2>
+  <h2 class="mt-5 title mb-5 Servicios" >Servicios</h2>
 </div>
 <div>
   <div class="container mt-5">
@@ -415,7 +434,7 @@
         <img src="/img/refacciones.jpg" class="card-img" alt="refacciones">
         <div class="card-img-overlay refacciones">
           <h5 class="card-title">Refacciones</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text">Focos, cristalería, respuestos.</p>
           
         </div>
       </div>
@@ -424,7 +443,11 @@
         <img src="/img/mantenimiento.jpg" class="card-img" alt="...">
         <div class="card-img-overlay mantenimiento">
           <h5 class="card-title">Mantenimiento</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="container card-text "><ul>
+            <li>Servicio de limpieza</li>
+            <li>Reparación</li>
+          </ul>
+            </p>
          
         </div>
       </div>
@@ -433,7 +456,12 @@
         <img src="/img/instalación5.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
           <h5 class="card-title">Instalación</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text">
+            <ul>
+              <li>Montaje y desmontaje</li>
+              <li>A domicilio</li>
+            </ul>
+            </p>
           
         </div>
       </div>
@@ -587,8 +615,8 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-md-4 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30">
-          <h3 class="h3f">Lidia Iluminación</h3>
+        <div class="col-md-4 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30" id="Nosotros">
+          <h3 class="h3f">Lydia Arámburo</h3>
           <p class="pf">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod placeat asperiores repellat ipsum, ab ipsam 
             suscipit expedita quas aut unde cupiditate neque quo obcaecati fugiat odit laborum et, dignissimos cumque?</p>
         </div>
@@ -600,7 +628,7 @@
             <li><a href="">Support</a></li>
             <li><a href="">Hosting</a></li>
             <li><a href="">Career</a></li>
-            <li><a href="">Blog</a></li>
+            <li><a href="">Aviso de Privacidad</a></li>
           </ul>
         </div>
 
@@ -612,9 +640,7 @@
             <a href="#" target="blank" class="btn btn-dark bredes"><i class="fab fa-twitter-square redes"></i></a>
             <a href="#" target="blank" class="btn btn-dark bredes"><i class="fab fa-instagram redes"></i></a>
             <a href="#" target="blank" class="btn btn-dark bredes"><i class="fab fa-pinterest-p redes"></i></a>
-            <div class="container d-flex"> 
-              <button class="btn btn-outline-secondary border-0 ml-auto"><img src="/img/LOGO LIDIA 2.png" alt=""  width="150" height="100"></button>
-            </div>  
+            
         </div>
         
 

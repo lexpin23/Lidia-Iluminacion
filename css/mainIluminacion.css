@@ -4,7 +4,21 @@
     padding: 0px;
 }
 
+#body{
+    /*background-image: url(../img/imagenfondo.jpg) ;*/
+  
+    
+  
+    
+}
+
 /*BARRA DE NAVEGACIÓN*/
+
+#logoLidia
+{
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+}
 .navbar-light .navbar-brand
 {
     font-size: 25px;
@@ -17,7 +31,7 @@
 
 .navbar-dark
 {
-    background: rgba(0, 0, 0, 0.459);
+    background:rgb(175, 160, 123);
 }
 
 /*=======================================================================================================*/
@@ -26,7 +40,7 @@
 /*SECCIÓN #1 sliders*/
 .carousel-item services
 {
-    background-color: rgba(204, 174, 98,1.0);
+    background-color: rgb(161, 142, 95);
 }
 
 .secciones
@@ -38,7 +52,7 @@
 .centrado
 {
     font-family: 'Work Sans', sans-serif;
-    color: white;
+   
     background: rgba(61, 61, 61,.4);
 }
 
@@ -49,11 +63,13 @@
     margin-top: 25px;
     margin-right: 10px;
     font-family: 'Work Sans', sans-serif;
+   
 }
 
 .carousel-caption
 {
     bottom: 220px;
+    color: #000;
 }
 
 .carousel-caption h5
@@ -63,6 +79,7 @@
     margin-top: 25px;
     margin-right: 10px;
     font-family: 'Work Sans', sans-serif;
+    color: #000;
 }
 
 /*=======================================================================================================*/
@@ -247,7 +264,8 @@ a:link, a:visited, a:active{
 /*=======================================================================================================*/
 /*SECCIÓN # SERVICIOS */
 
-#Servicios{
+.Servicios
+{
     text-align: center;
     text-transform: capitalize; 
 }
