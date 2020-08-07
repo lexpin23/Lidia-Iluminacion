@@ -291,6 +291,47 @@ a:link, a:visited, a:active{
 /*=======================================================================================================*/
 
 /*SECCIÓN #3 CONTACTO */
+
+#Efecto-etiqueta{
+    background-color: rgba(234, 32, 39, 0.767);
+    padding: 10px 30px;
+    margin-left: -30px;
+    position: relative;
+    width: 35%;
+    box-shadow: 5px 5px 5px rgba(45, 52, 54, 0.623);
+    -moz-box-shadow: 5px 5px 5px rgba(45, 52, 54,0.623);
+    -webkit-box-shadow: 5px 5px 5px rgba(45, 52, 54,0.623);
+}
+
+/* responsive css efecto etiqueta Envíanos un mensaje*/
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+    #Efecto-etiqueta
+    {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+    #Efecto-etiqueta
+    {
+      width: 80%;
+    }
+   
+}
+
+@media only screen  and (max-width: 575px)
+{
+    #Efecto-etiqueta
+    {
+      width: 80%;
+    }
+   
+}
+
+
+
 .title2
 {
     font-family: 'Work Sans', sans-serif;
