@@ -330,6 +330,15 @@ a:link, a:visited, a:active{
    
 }
 
+/* responsive css mapa para sm*/
+@media only screen  and (max-width: 575px)
+{
+    #map
+    {
+      width: 350;
+    }
+   
+}
 
 
 .title2
