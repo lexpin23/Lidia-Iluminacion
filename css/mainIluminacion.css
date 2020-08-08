@@ -70,6 +70,33 @@
 {
     bottom: 220px;
     color: #000;
+    
+}
+
+#QS-caja-texto{
+    top: 120px;
+   
+
+}
+
+#His-caja-texto{
+    top: 50px;
+    margin-right: 50px;
+    
+
+}
+
+.h-His{
+    text-align: center;
+    margin-left: 80px;
+}
+
+.p-His{
+    
+    text-align: justify;
+    width: 450px;
+    height: 450px;
+   
 }
 
 .carousel-caption h5
