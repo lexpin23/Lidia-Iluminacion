@@ -36,8 +36,709 @@
 
 /*=======================================================================================================*/
 
+.Quienes-Somos{
+    margin: 150px 120px;
+    width: 500px;
+    
+}
+.Historia{
+    margin: 60px 40px;
+    width: 550px;
+    
+}
 
-/*SECCIÓN #1 sliders*/
+.Visitante{
+    margin: 150px 40px;
+    width: 500px;
+    
+}
+
+.titulo-QS{
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.texto-QS{
+    font-size: 19px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+.titulo-H{
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.texto-H{
+    font-size: 10px;
+    font-family: 'Work Sans', sans-serif;
+    
+   
+}
+
+.titulo-V{
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.texto-V{
+    font-size: 19px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    
+}
+
+/*==============================================================================================================*/
+
+/* SECCIÓN 1 RESPONSIVE*/
+
+/*--Slider #1--*/
+
+@media (min-width: 360px) and (max-width: 374px)
+{
+
+    #card-body-Visitante{
+        display: -webkit-flex;
+    }
+
+    #caja-Visitante
+    {
+       text-align: center;  
+       margin: -395px 60px;
+       height: 325px;
+       
+     
+    }
+
+    .card-img{
+        
+    }
+
+    .titulo-V{
+       
+        font-size: 20px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-V{
+        
+        font-size: 15px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        
+
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px)
+{
+
+    #card-body-Visitante{
+        display: -webkit-flex;
+    }
+
+    #caja-Visitante
+    {
+       text-align: center;  
+       margin: -390px 50px;
+       height: 260px;
+       
+     
+    }
+
+    .card-img{
+        
+    }
+
+    .titulo-V{
+       
+        font-size: 20px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-V{
+        
+        font-size: 15px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        
+
+    }
+}
+
+@media (min-width: 414px) and (max-width: 429px)
+{
+
+    #card-body-Visitante{
+        display: -webkit-flex;
+    }
+
+    #caja-Visitante
+    {
+       text-align: center;  
+       margin: -390px 50px;
+       height: 250px;
+       
+     
+    }
+
+    .card-img{
+        
+    }
+
+    .titulo-V{
+       
+        font-size: 20px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-V{
+        
+        font-size: 15px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        
+
+    }
+}
+
+@media (min-width: 430px) and (max-width: 475px)
+{
+
+    #card-body-Visitante{
+        display: -webkit-flex;
+    }
+
+    #caja-Visitante
+    {
+        
+       margin: 4px;
+       text-align: center;  
+       margin: -390px 50px;
+       
+       height: 240px;
+       
+     
+    }
+
+    .card-img{
+        
+    }
+
+    .titulo-V{
+       
+        font-size: 20px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-V{
+        
+        font-size: 15px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        
+
+    }
+}
+
+
+@media (min-width: 476px) and (max-width: 767px)
+{
+    #card-body-Visitante{
+        display: -webkit-flex;
+    }
+
+    #caja-Visitante
+    {
+        
+       margin: -380px 50px;
+       height: 190px;
+       
+     
+    }
+
+    .titulo-V{
+       
+        font-size: 25px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-V{
+        
+        font-size: 15px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #caja-Visitante
+    {
+        margin: 150px -150px;
+        width: 400px;
+    }
+
+    .titulo-V{
+        font-size: 28px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-V{
+        font-size: 18px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    #caja-Visitante
+    {
+        margin: 150px 40px;
+        width: 450px;
+    }
+}
+
+/*--Slider #2--*/
+
+
+
+@media only screen and (max-width: 575px)
+{
+
+    #card-body-Quienes-Somos{
+        position: relative;
+    }
+    
+
+    #Caja-Quienes-Somos
+    {
+        position:absolute;
+        z-index: 2;
+        margin: 250px 10px;
+        width: 300px;
+       
+     
+    }
+
+    .img-QS{
+      
+        z-index: 1;
+    }
+
+    
+    .titulo-QS{
+       
+        font-size: 20px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-QS{
+        
+        font-size: 15px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        
+
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    #card-body-Quienes-Somos{
+        position: relative;
+    }
+
+    #Caja-Quienes-Somos
+    {
+        position:absolute;
+        z-index: 2;
+        margin: 250px 80px;
+        width: 400px;
+    }
+
+    .img-QS{
+      
+        z-index: 1;
+    }
+
+    .titulo-QS{
+       
+        font-size: 25px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-QS{
+        
+        font-size: 15px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #card-body-Quienes-Somos{
+        position: relative;
+    }
+
+    #Caja-Quienes-Somos
+    {
+        position:absolute;
+        z-index: 2;
+        margin: 150px 40px;
+        width: 400px;
+    }
+
+    .img-QS{
+      
+        z-index: 1;
+    }
+
+
+    .titulo-QS{
+        font-size: 28px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-QS{
+        font-size: 18px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    #Caja-Quienes-Somos
+    {
+        margin: 150px 50px;
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width: 1200px)
+{
+    #Caja-Quienes-Somos
+    {
+        margin: 150px 90px;
+        width: 450px;
+    }
+}
+
+/*--Slider #3--*/
+
+@media (min-width: 360px) and (max-width: 374px)
+{
+
+    #card-body-Historia{
+       
+    }
+
+    #caja-Historia
+    {
+       text-align: center;  
+       margin: -545px 20px;
+       width: 320px;
+       height: 525px;
+       
+     
+    }
+
+    .card-img{
+        
+    }
+
+    .titulo-H{
+       
+        font-size: 20px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-H{
+        
+        font-size: 12px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        
+
+    }
+}
+
+@media (min-width: 375px) and (max-width: 410px)
+{
+
+    #card-body-Historia{
+        display: -webkit-flex;
+    }
+
+    #caja-Historia
+    {
+        display: inline-block;
+       text-align: center;  
+       margin: -550px 25px;
+       height: 520px;
+       
+     
+    }
+
+    .card-img{
+        
+    }
+
+    .titulo-H{
+       
+        font-size: 30px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-H{
+        
+        font-size: 18px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        
+
+    }
+}
+
+@media (min-width: 411px) and (max-width: 469px)
+{
+
+    #card-body-Historia{
+        
+        display: -webkit-flex;
+        
+        
+    }
+
+    #caja-Historia
+    {
+    
+        display: inline-block;
+       text-align: center;  
+       margin: -520px 20px;
+       height: 470px;
+       
+     
+    }
+
+    .card-img{
+        
+    }
+
+    .titulo-H{
+       
+        font-size: 20px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-H{
+        
+        font-size: 15px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        
+
+    }
+}
+
+@media (min-width: 470px) and (max-width: 575px)
+{
+
+    #card-body-Historia{
+        display: -webkit-flex;
+    }
+
+    #caja-Historia
+    {
+        display: inline-block;
+       text-align: center;  
+       margin: -510px 40px;
+       height: 430px;
+       
+     
+    }
+
+    .card-img{
+        
+    }
+
+    .titulo-H{
+       
+        font-size: 20px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-H{
+        
+        font-size: 15px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 670px)
+{
+    #card-body-Historia{
+        display: -webkit-flex;
+    }
+
+    #caja-Historia
+    {
+        
+       margin: -500px 50px;
+       height: 390px;
+       
+     
+    }
+
+    .titulo-H{
+       
+        font-size: 25px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-H{
+        
+        font-size: 17px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        
+
+    }
+
+}
+
+@media (min-width: 671px) and (max-width: 767px)
+{
+    #card-body-Historia{
+        display: -webkit-flex;
+    }
+
+    #caja-Historia
+    {
+        
+       margin: -470px 50px;
+       height: 350px;
+       
+     
+    }
+
+    .titulo-H{
+       
+        font-size: 28px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-H{
+        
+        font-size: 50px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        
+
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #caja-Historia
+    {
+        margin: 50px -340px;
+        height: 500px;
+        width: 500px;
+    }
+
+    .titulo-H{
+        font-size: 28px;
+        font-family:'Work Sans', sans-serif ;
+        letter-spacing: 2px;
+    }
+
+    .texto-H{
+        font-size: 18px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1149px) 
+{
+
+    #caja-Historia
+    {
+        font-size: 10px;
+        margin: 50px -90px;
+        width: 600px;
+    }
+}
+
+@media (min-width: 1150px) and (max-width: 1299px)
+{
+    #caja-Historia
+    {
+        margin: 70px -90px;
+        width: 650px;
+    }
+}
+
+@media only screen and (min-width: 1300px)
+{
+    #card-body-Historia{
+        display: -webkit-flex;
+        height: 630px;
+    }
+
+    #caja-Historia
+    {
+        margin: 70px 50px;
+        height: 550px;
+    }
+}
+
+/*=========================================================================================================*/
+
+
+/*SECCIÓN #1 sliders
 .carousel-item services
 {
     background-color: rgb(161, 142, 95);
@@ -109,9 +810,11 @@
     color: #000;
 }
 
+*/
+
 /*=======================================================================================================*/
 
-/*SECCIÓN #1 sliders RESPONSIVE*/
+/*SECCIÓN #1 sliders RESPONSIVE
 
 @media only screen and (max-width: 767px)
 {
@@ -176,10 +879,11 @@
         display: none;
     }
 }
+*/
 
 /*=======================================================================================================*/
 
-
+/*
 .tarjetas
 {
     font-family: 'Work Sans', sans-serif; 
@@ -195,6 +899,7 @@ a:link, a:visited, a:active{
     text-decoration: none;
 }
 
+*/
 
 /*=======================================================================================================*/
 
