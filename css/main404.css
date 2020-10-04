@@ -1,5 +1,25 @@
 #body{
-    background: url(../img/mantenimiento-pagina.jpg);
+    background-image: url("../img/404.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
+}
+
+#logoLidia
+{
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+.navbar-light .navbar-brand
+{
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+}
+.navbar-nav a
+{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-dark
+{
+    background:rgba(47, 54, 64,1.0);
 }
